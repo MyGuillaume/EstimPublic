@@ -31,7 +31,10 @@
     
     <div id="result"></div>
 
-    <script src="script10.js"></script>
+    <?php
+// Inclure le script JavaScript dans la page via PHP
+echo '<script src="/path/to/your/script10.js"></script>';
+?>
     </div></div>
 </body>
 </html>
